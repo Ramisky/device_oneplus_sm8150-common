@@ -9,3 +9,8 @@ allow op1_file self:filesystem associate;
 
 # Allow init to create vl53l1_socket
 allow init vl53l1_socket:sock_file create_file_perms;
+
+allow init bt_firmware_file:filesystem getattr;
+allow init firmware_file:filesystem getattr;
+allow init sysfs_battery_supply:file setattr;
+
