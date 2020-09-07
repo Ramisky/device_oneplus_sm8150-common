@@ -447,9 +447,6 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
-    <!-- Whether device has warp charging support -->
-    <bool name="config_hasWarpCharger">true</bool>
-
     <!-- Smart charging -->
     <bool name="config_smartChargingAvailable">true</bool>
 
@@ -473,10 +470,6 @@
 
     <!-- Enable face auth when swiping security view -->
     <bool name="config_faceAuthOnSecurityView">true</bool>
-
-    <!-- Whether device supports variable refresh rate -->
-    <bool name="config_hasVariableRefreshRate">true</bool>
-    <integer name="config_defaultVariableRefreshRateSetting">2</integer>
 
     <!-- Whether the device supports Smart Pixels --> 
     <bool name="config_supportSmartPixels">true</bool>
