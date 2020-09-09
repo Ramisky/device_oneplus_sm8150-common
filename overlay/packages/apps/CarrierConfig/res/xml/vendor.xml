@@ -135,9 +135,6 @@
     <carrier_config mcc="208" mnc="09" />
     <carrier_config mcc="208" mnc="11" />
     <carrier_config mcc="208" mnc="13" />
-    <carrier_config gid1="f2330002" mcc="208" mnc="15">
-        <string-array name="read_only_apn_types_string_array" num="0" />
-    </carrier_config>
     <carrier_config mcc="208" mnc="20">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="vendor_hide_volte_settng_ui" value="true" />
@@ -181,9 +178,6 @@
     </carrier_config>
     <carrier_config mcc="222" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
-    </carrier_config>
-    <carrier_config gid1="F003" mcc="222" mnc="50">
-        <string-array name="read_only_apn_types_string_array" num="0" />
     </carrier_config>
     <carrier_config mcc="226" mnc="10" />
     <carrier_config mcc="228" mnc="01" />
@@ -386,7 +380,6 @@
         <boolean name="display_hd_audio_property_bool" value="false" />
         <int name="wfc_spn_format_idx_int" value="2" />
         <boolean name="carrier_name_override_bool" value="false" />
-        <string name="default_vm_number_string">3311</string>
     </carrier_config>
     <carrier_config mcc="262" mnc="06" />
     <carrier_config mcc="262" mnc="02" />
@@ -428,10 +421,7 @@
         <string-array name="read_only_apn_types_string_array" num="0" />
     </carrier_config>
     <carrier_config mcc="405" mnc="840">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -463,10 +453,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="854">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -498,10 +485,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="855">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -533,10 +517,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="856">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -568,10 +549,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="857">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -603,10 +581,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="858">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -638,10 +613,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="859">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -673,10 +645,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="860">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -708,10 +677,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="861">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -743,10 +709,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="862">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -778,10 +741,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="863">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -813,10 +773,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="864">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -848,10 +805,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="865">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -883,10 +837,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="866">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -918,10 +869,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="867">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -953,10 +901,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="868">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -988,10 +933,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="869">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -1023,10 +965,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="870">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -1058,10 +997,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="871">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -1093,10 +1029,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="872">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -1128,10 +1061,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="873">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -1163,10 +1093,7 @@
         <string name="carrier_name_string">JIO</string>
     </carrier_config>
     <carrier_config mcc="405" mnc="874">
-        <boolean name="carrier_wfc_ims_available_bool" value="true" />
-        <boolean name="editable_wfc_mode_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="2" />
-        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
         <boolean name="video_call_use_ext" value="false" />
         <boolean name="use_custom_video_ui" value="true" />
         <boolean name="config_hide_preview_in_vt_confcall" value="true" />
@@ -2967,7 +2894,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="enhanced_4g_lte_on_by_default_bool" value="true" />
         <boolean name="carrier_use_ims_first_for_emergency_bool" value="true" />
-        <boolean name="vendor_enable_pwd_callbarring" value="true" />
     </carrier_config>
     <carrier_config mcc="248" mnc="01">
         <string name="carrier_name_string">TELIA</string>
@@ -3028,9 +2954,6 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <int name="carrier_default_wfc_ims_mode_int" value="1" />
-    </carrier_config>
-    <carrier_config gid1="f2330002" mcc="647" mnc="03">
-        <string-array name="read_only_apn_types_string_array" num="0" />
     </carrier_config>
     <carrier_config mcc="505" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
