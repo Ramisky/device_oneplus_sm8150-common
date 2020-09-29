@@ -526,3 +526,5 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 TARGET_HAS_FOD := true
+
+BUILD_RR_WALLPAPERS:= true
