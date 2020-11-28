@@ -15,14 +15,14 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package org.kangos.settings.doze;
+package org.kangos.device.DeviceSettings;
 
 import android.annotation.TargetApi;
 import android.content.Intent;
 import android.service.quicksettings.TileService;
 
 @TargetApi(24)
-public class DozeTileService extends TileService {
+public class PanelModeTileService extends TileService {
     @Override
     public void onDestroy() {
         super.onDestroy();
@@ -51,8 +51,8 @@ public class DozeTileService extends TileService {
     @Override
     public void onClick() {
         super.onClick();
-        Intent OnePlusDoze = new Intent(this, DozeSettingsActivity.class);
-        OnePlusDoze.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivityAndCollapse(OnePlusDoze);
+        Intent panelModes = new Intent(this, PanelSettingsActivity.class);
+        panelModes.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivityAndCollapse(panelModes);
     }
 }
