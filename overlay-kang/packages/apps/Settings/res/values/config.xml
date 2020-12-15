@@ -34,4 +34,6 @@
 
     <!-- KangOS maintainer -->
     <string name="kangos_maintainer">Rick Macek</string>
+
+    <bool name="config_show_color_mode">false</bool>
 </resources>
