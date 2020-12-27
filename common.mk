@@ -556,4 +556,4 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Blur
-PRODUCT_PROPERTY_OVERRIDES += persist.sys.sf.disable_blurs=0
+TARGET_USES_BLUR := true
