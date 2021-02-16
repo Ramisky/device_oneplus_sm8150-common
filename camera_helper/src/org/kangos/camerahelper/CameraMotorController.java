@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kangos.camerahelper;
+package com.kangos.camerahelper;
 
 import android.os.FileUtils;
 import android.text.TextUtils;

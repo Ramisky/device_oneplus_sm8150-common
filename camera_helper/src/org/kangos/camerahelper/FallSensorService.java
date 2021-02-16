@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kangos.camerahelper;
+package com.kangos.camerahelper;
 
 import android.app.Service;
 import android.content.BroadcastReceiver;

@@ -1,3 +1,3 @@
--keep class org.kangos.camerahelper.* {
+-keep class com.kangos.camerahelper.* {
   *;
 }

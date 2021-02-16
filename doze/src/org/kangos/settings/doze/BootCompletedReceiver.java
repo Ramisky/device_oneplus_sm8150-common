@@ -1,5 +1,6 @@
 /*
- * Copyright (c) 2019 The LineageOS Project
+ * Copyright (C) 2015 The CyanogenMod Project
+ *               2017 The LineageOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.kangos.camerahelper;
+package com.kangos.settings.doze;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -22,12 +23,13 @@ import android.content.Intent;
 import android.util.Log;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
-    private static final String TAG = "OnePlusCameraHelper";
+
+    private static final boolean DEBUG = false;
+    private static final String TAG = "OnePlusDoze";
 
     @Override
     public void onReceive(final Context context, Intent intent) {
-        Log.d(TAG, "Starting");
-        context.startService(new Intent(context, CameraMotorService.class));
-        context.startService(new Intent(context, FallSensorService.class));
+        if (DEBUG) Log.d(TAG, "Received boot completed intent");
+        Utils.checkDozeService(context);
     }
 }

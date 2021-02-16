@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.kangos.camerahelper;
+package com.kangos.camerahelper;
 
 import android.annotation.NonNull;
 import android.app.Service;
