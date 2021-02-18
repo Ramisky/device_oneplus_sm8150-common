@@ -1,0 +1,3 @@
+<resources>
+    <string name="config_pickup_sensor">oneplus.sensor.op_motion_detect</string>
+</resources>
