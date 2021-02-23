@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-system \
-    $(LOCAL_PATH)/overlay-kang
+    $(LOCAL_PATH)/overlay-descendant
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -91,8 +91,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml \
-    $(LOCAL_PATH)/configs/hiddenapi-package-whitelist-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-package-whitelist-hotword.xml \
-    vendor/kangos/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+    $(LOCAL_PATH)/configs/hiddenapi-package-whitelist-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-package-whitelist-hotword.xml
 
 # ANT+
 PRODUCT_PACKAGES += \
