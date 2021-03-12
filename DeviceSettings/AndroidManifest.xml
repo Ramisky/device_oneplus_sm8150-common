@@ -24,7 +24,7 @@
     <uses-permission android:name="android.permission.WRITE_SETTINGS" />
     <uses-permission android:name="android.permission.CAMERA" />
 
-    <protected-broadcast android:name=">com.kangos.device.DeviceSettings.UPDATE_SLIDER_POSITION" />
+    <protected-broadcast android:name="com.kangos.device.DeviceSettings.UPDATE_SLIDER_POSITION" />
 
     <uses-sdk
         android:minSdkVersion="28"
