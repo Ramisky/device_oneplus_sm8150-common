@@ -28,6 +28,7 @@ persist.vendor.overlay.izat.optin=rro
 
 # Graphics
 debug.sf.enable_hwc_vds=1
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 vendor.display.enable_rotator_ui=1
 
 # HWUI
