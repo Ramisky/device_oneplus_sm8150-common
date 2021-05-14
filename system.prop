@@ -32,6 +32,7 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 vendor.display.enable_rotator_ui=1
 
 # HWUI
+debug.hwui.renderer=skiavk
 ro.hwui.drop_shadow_cache_size=6
 ro.hwui.gradient_cache_size=1
 ro.hwui.layer_cache_size=48
